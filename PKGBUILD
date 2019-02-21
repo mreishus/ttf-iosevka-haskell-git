@@ -1,9 +1,10 @@
-# Maintainer: Andy Kluger <AndyKluger@gmail.com>
+# Maintainer: Matthew Reishus <m.reishus@fastmail.com>
+# Contributor: Andy Kluger <AndyKluger@gmail.com>
 # Contributor: Markus Weimar <mail@markusweimar.de>
-pkgname=ttf-iosevka-custom-git
-pkgver=r1145.68b55c13
+pkgname=ttf-iosevka-haskell-git
+pkgver=r1168.7f1f0a7a
 pkgrel=1
-pkgdesc='A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.'
+pkgdesc='A slender monospace sans-serif and slab-serif typeface. Built with Haskell ligatures.'
 arch=('any')
 url='https://be5invis.github.io/Iosevka/'
 license=('custom:OFL')
@@ -17,7 +18,7 @@ source=(
 )
 md5sums=(
   'SKIP'
-  '7d6b77730ff5400d69e004cc1921ea19'
+  '26bc960aa7c9b9ba587798bcf76d654e'
 )
 
 pkgver() {
@@ -34,7 +35,7 @@ prepare() {
 build() {
   cd Iosevka
   npm install
-  npm run build -- ttf:iosevka-custom
+  npm run build -- ttf:iosevka-termlig-haskell
 }
 
 package() {
