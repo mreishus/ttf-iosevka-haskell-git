@@ -1,5 +1,5 @@
-pkgbase = ttf-iosevka-custom-git
-	pkgdesc = A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
+pkgbase = ttf-iosevka-haskell-git
+	pkgdesc = A slender monospace sans-serif and slab-serif typeface. Built with Haskell ligatures.
 	pkgver = r1145.68b55c13
 	pkgrel = 1
 	url = https://be5invis.github.io/Iosevka/
@@ -15,7 +15,7 @@ pkgbase = ttf-iosevka-custom-git
 	source = git+https://github.com/be5invis/Iosevka
 	source = private-build-plans.toml
 	md5sums = SKIP
-	md5sums = 7d6b77730ff5400d69e004cc1921ea19
+	md5sums = 26bc960aa7c9b9ba587798bcf76d654e
 
-pkgname = ttf-iosevka-custom-git
+pkgname = ttf-iosevka-haskell-git
 
