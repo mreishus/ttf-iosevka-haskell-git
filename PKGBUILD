@@ -2,7 +2,7 @@
 # Contributor: Andy Kluger <AndyKluger@gmail.com>
 # Contributor: Markus Weimar <mail@markusweimar.de>
 pkgname=ttf-iosevka-haskell-git
-pkgver=r1168.7f1f0a7a
+pkgver=r1255.5b2f0877
 pkgrel=1
 pkgdesc='A slender monospace sans-serif and slab-serif typeface. Built with Haskell ligatures.'
 arch=('any')
@@ -35,7 +35,7 @@ prepare() {
 build() {
   cd Iosevka
   npm install
-  npm run build -- ttf:iosevka-termlig-haskell
+  npm run build -- contents::iosevka-termlig-haskell
 }
 
 package() {
