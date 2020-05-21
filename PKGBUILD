@@ -2,7 +2,7 @@
 # Contributor: Andy Kluger <AndyKluger@gmail.com>
 # Contributor: Markus Weimar <mail@markusweimar.de>
 pkgname=ttf-iosevka-haskell-git
-pkgver=r1255.5b2f0877
+pkgver=r1614.09e50636
 pkgrel=1
 pkgdesc='A slender monospace sans-serif and slab-serif typeface. Built with Haskell ligatures.'
 arch=('any')
@@ -18,7 +18,7 @@ source=(
 )
 md5sums=(
   'SKIP'
-  '26bc960aa7c9b9ba587798bcf76d654e'
+  '96bdf98121277a2c84aa536dbc1790ea'
 )
 
 pkgver() {
